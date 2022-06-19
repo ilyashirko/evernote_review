@@ -44,3 +44,5 @@ Take title of the default note, adding date and day of the week and create new n
 
 ## dump_inbox.py
 return all notes of choosen notebook
+
+the application was created by [DEVMAN](https://dvmn.org) team for educational purposes
