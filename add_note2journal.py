@@ -36,14 +36,14 @@ if __name__ == '__main__':
     parser.add_argument('date',
                         nargs='?',
                         type=is_valid_date,
-                        help='date in format "YYYY-MM-DD"')
+                        help='date in format "YYYY-MM-DD" or timedelta in format "+{days}" or "-{days}"')
     args = parser.parse_args()
 
     config = Settings()
 
     client = EvernoteClient(
         token=config.EVERNOTE_PERSONAL_TOKEN,
-        sandbox=True # Default: True
+        sandbox=config.SANDBOX
     )
     noteStore = client.get_note_store()
 

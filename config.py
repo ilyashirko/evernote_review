@@ -12,4 +12,5 @@ class Settings():
     JOURNAL_NOTEBOOK_GUID = env.str('JOURNAL_NOTEBOOK_GUID')
 
     INBOX_NOTEBOOK_GUID = env.str('INBOX_NOTEBOOK_GUID')
+    SANDBOX = env.bool("SANDBOX")
 
