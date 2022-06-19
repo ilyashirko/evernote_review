@@ -26,6 +26,7 @@ SANDBOX =
 `JOURNAL_NOTEBOOK_GUID` - any notebook  
 `JOURNAL_TEMPLATE_NOTE_GUID` - default note from `JOURNAL_NOTEBOOK_GUID`  
 `INBOX_NOTEBOOK_GUID` - default notebook (you can set up it in the notebook settings)  
+`SANDBOX` - True or False  
 
 ## list_notebooks.py
 returns list of user notebooks in the format:
