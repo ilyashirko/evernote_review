@@ -20,11 +20,11 @@ JOURNAL_TEMPLATE_NOTE_GUID =
 JOURNAL_NOTEBOOK_GUID = '2b9879ee-e6e7-460f-9b7e-a26713a1a867'
 INBOX_NOTEBOOK_GUID = '2b9879ee-e6e7-460f-9b7e-a26713a1a867'    
 ```
-`EVERNOTE_CONSUMER_KEY` & `EVERNOTE_CONSUMER_SECRET` you can get [here](https://dev.evernote.com/#apikey)
-`EVERNOTE_PERSONAL_TOKEN` get [here](https://sandbox.evernote.com/api/DeveloperToken.action)
-`JOURNAL_NOTEBOOK_GUID` - any notebook
-`JOURNAL_TEMPLATE_NOTE_GUID` - default note from `JOURNAL_NOTEBOOK_GUID`
-`INBOX_NOTEBOOK_GUID` - default notebook (you can set up it in the notebook settings)
+`EVERNOTE_CONSUMER_KEY` & `EVERNOTE_CONSUMER_SECRET` you can get [here](https://dev.evernote.com/#apikey)  
+`EVERNOTE_PERSONAL_TOKEN` get [here](https://sandbox.evernote.com/api/DeveloperToken.action)  
+`JOURNAL_NOTEBOOK_GUID` - any notebook  
+`JOURNAL_TEMPLATE_NOTE_GUID` - default note from `JOURNAL_NOTEBOOK_GUID`  
+`INBOX_NOTEBOOK_GUID` - default notebook (you can set up it in the notebook settings)  
 
 ## list_notebooks.py
 returns list of user notebooks in the format:
