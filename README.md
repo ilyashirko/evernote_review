@@ -21,12 +21,12 @@ JOURNAL_NOTEBOOK_GUID=
 INBOX_NOTEBOOK_GUID=
 SANDBOX=
 ```
-`EVERNOTE_CONSUMER_KEY` & `EVERNOTE_CONSUMER_SECRET` you can get [here](https://dev.evernote.com/#apikey)  
-`EVERNOTE_PERSONAL_TOKEN` get [here](https://sandbox.evernote.com/api/DeveloperToken.action)  
-`JOURNAL_NOTEBOOK_GUID` - any notebook  
-`JOURNAL_TEMPLATE_NOTE_GUID` - default note from `JOURNAL_NOTEBOOK_GUID`  
-`INBOX_NOTEBOOK_GUID` - default notebook (you can set up it in the notebook settings)  
-`SANDBOX` - True or False  
+* `EVERNOTE_CONSUMER_KEY` & `EVERNOTE_CONSUMER_SECRET` you can get [here](https://dev.evernote.com/#apikey)  
+* `EVERNOTE_PERSONAL_TOKEN` get [here](https://sandbox.evernote.com/api/DeveloperToken.action)  
+* `JOURNAL_NOTEBOOK_GUID` - any notebook  
+* `JOURNAL_TEMPLATE_NOTE_GUID` - default note from `JOURNAL_NOTEBOOK_GUID`  
+* `INBOX_NOTEBOOK_GUID` - default notebook (you can set up it in the notebook settings)  
+* `SANDBOX` - True or False  
 
 ## list_notebooks.py
 returns list of user notebooks in the format:
@@ -43,6 +43,7 @@ Take title of the default note, adding date and day of the week and create new n
 ```
 
 ## dump_inbox.py
-return all notes of choosen notebook
+return all notes of choosen notebook.
 
-the application was created by [DEVMAN](https://dvmn.org) team for educational purposes
+***  
+the application was created by [DEVMAN](https://dvmn.org) team for educational purposes.
